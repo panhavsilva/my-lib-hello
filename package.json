@@ -1,6 +1,6 @@
 {
   "name": "my-lib-hello",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Boilerplate to create library with Vite, Typescript and React.js",
   "license": "MIT",
   "main": "./dist/my-lib-hello.umd.js",
