@@ -14,9 +14,6 @@ export default defineConfig(configEnv => ({
       linters: [new EsLinter({ configEnv })],
     }),
   ],
-  esbuild: {
-    jsxInject: 'import * as React from "react"',
-  },
   build: {
     lib: {
       entry: resolve('lib', 'main.tsx'),
