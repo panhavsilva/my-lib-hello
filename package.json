@@ -1,5 +1,5 @@
 {
-  "name": "my-lib-hello",
+  "name": "@panhasilva/my-lib-hello",
   "version": "1.0.0",
   "description": "Boilerplate to create library with Vite, Typescript and React.js",
   "license": "MIT",
