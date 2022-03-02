@@ -27,7 +27,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/panhavsilva/my-lib-hello"
+    "url": "git+https://github.com/panhavsilva/my-lib-hello.git"
   },
   "keywords": [],
   "author": "Pâmela Vieira da Silva - @panhavsilva",
