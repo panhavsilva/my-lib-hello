@@ -27,13 +27,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/panhavsilva/my-lib-hello.git"
+    "url": "https://github.com/panhavsilva/my-lib-hello.git"
   },
   "keywords": [],
   "author": "Pâmela Vieira da Silva - @panhavsilva",
   "bugs": {
     "url": "https://github.com/panhavsilva/my-lib-hello/issues"
   },
+  "homepage": "https://github.com/panhavsilva/my-lib-hello",
   "peerDependencies": {
     "react": ">=17.x"
   },

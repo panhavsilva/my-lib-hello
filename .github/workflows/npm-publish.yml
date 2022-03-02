@@ -13,7 +13,7 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: 16.x
-          registry-url: https://registry.npmjs.org/:_authToken=${NPM_TOKEN}
+          registry-url: https://registry.npmjs.org/
       - run: yarn
       - run: yarn ci
       - run: yarn build
@@ -21,5 +21,3 @@ jobs:
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
           NPM_TOKEN: ${{secrets.NPM_TOKEN}}
-          token: ${{secrets.NPM_TOKEN}}
-
