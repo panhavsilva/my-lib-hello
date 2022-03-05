@@ -16,7 +16,7 @@ jobs:
           registry-url: https://registry.npmjs.org/
       - run: yarn
       - run: yarn ci
-      - run: yarn
-      commands:
-      - echo //registry.npmjs.org/:_authToken=$NPM_TOKEN > .npmrc
-      - npm publish --access=public
+      - run: yarn build
+      - run: npm publish --access=public
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
