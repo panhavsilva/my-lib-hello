@@ -1,6 +1,6 @@
 {
   "name": "@panhasilva/my-lib-hello",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "Boilerplate to create library with Vite, Typescript and React.js",
   "main": "./dist/my-lib-hello.umd.js",
   "module": "./dist/my-lib-hello.es.js",
