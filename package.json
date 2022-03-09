@@ -1,12 +1,11 @@
 {
   "name": "@panhasilva/my-lib-hello",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "description": "Boilerplate to create library with Vite, Typescript and React.js",
   "main": "./dist/my-lib-hello.umd.js",
   "module": "./dist/my-lib-hello.es.js",
   "types": "./dist/lib/main.d.ts",
   "license": "MIT",
-  
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
