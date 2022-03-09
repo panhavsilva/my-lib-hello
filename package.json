@@ -6,9 +6,7 @@
   "module": "./dist/my-lib-hello.es.js",
   "types": "./dist/lib/main.d.ts",
   "license": "MIT",
-  "publishConfig": {
-    "@panhasilva:registry": "https://registry.npmjs.org/"
-  },
+  
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
